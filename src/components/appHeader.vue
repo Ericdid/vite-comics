@@ -1,21 +1,31 @@
 <script>
-// import MyComponent from "./components/MyComponent.vue";
-
 export default {
   data() {
     return {
-      title: "Hello worldasdfsd",
+      title: "",
     };
   },
-
-  // components: {
-  //   MyComponent,
-  // },
 };
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <img src="../assets/img/dc-logo.png" alt="" />
+  <ul class="d-flex">
+    <li>characters</li>
+    <li>comics</li>
+    <li>movies</li>
+    <li>tv</li>
+    <li>games</li>
+    <li>collectibles</li>
+    <li>videos</li>
+    <li>fans</li>
+    <li>news</li>
+    <li>shop</li>
+  </ul>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img {
+  display: inline-block;
+}
+</style>
