@@ -32,11 +32,12 @@ img {
 }
 ul {
   list-style-type: none;
+  margin: 0;
 
   li {
     margin-left: 40px;
     margin-top: 2px;
-    padding-bottom: 20px;
+    padding: 40px 5px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
   }
