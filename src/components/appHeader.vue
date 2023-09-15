@@ -27,9 +27,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-img {
-  display: inline-block;
-}
 ul {
   list-style-type: none;
   margin: 0;
