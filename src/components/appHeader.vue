@@ -39,11 +39,11 @@ ul {
     margin-top: 2px;
     padding: 40px 5px;
     font-weight: 600;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
   }
   :hover {
-    color: rgb(75, 75, 255);
-    border-bottom: 2px solid rgb(75, 75, 255);
+    color: #0c7cec;
+    border-bottom: 3px solid #0c7cec;
   }
 }
 </style>
