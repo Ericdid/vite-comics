@@ -92,10 +92,10 @@ export default {
 </script>
 
 <template>
-  <div class="row col-md-6 g-2 mx-auto p-3">
-    <div class="col" v-for="comics in comicsList">
+  <div class="row col-md-6 mx-auto p-3">
+    <div class="col comics-card" v-for="comics in comicsList">
       <img :src="comics.thumb" alt="" />
-      <h5>{{ comics.series }}</h5>
+      <p>{{ comics.series }}</p>
     </div>
   </div>
   <div class="d-flex justify-content-center py-2">
@@ -104,7 +104,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-img {
-  width: 100%;
+.comics-card {
+  min-width: 150px;
+  img {
+    width: 100px;
+  }
 }
 </style>
