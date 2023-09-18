@@ -49,7 +49,7 @@ export default {
   object-position: 0 0;
 }
 .card-container {
-  height: 300px;
+  // height: 300px;
   background-color: rgb(43, 42, 42);
   color: white;
 }

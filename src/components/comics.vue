@@ -92,12 +92,19 @@ export default {
 </script>
 
 <template>
-  <div class="row col-md-6 g-4 mx-auto">
+  <div class="row col-md-6 g-2 mx-auto p-3">
     <div class="col" v-for="comics in comicsList">
       <img :src="comics.thumb" alt="" />
       <h5>{{ comics.series }}</h5>
     </div>
   </div>
+  <div class="d-flex justify-content-center py-2">
+    <button class="btn btn-primary"><h5>Load More</h5></button>
+  </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img {
+  width: 100%;
+}
+</style>
