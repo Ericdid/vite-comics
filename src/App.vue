@@ -5,9 +5,7 @@ import appFooter from "./components/appFooter.vue";
 
 export default {
   data() {
-    return {
-      title: "Hello world",
-    };
+    return {};
   },
 
   components: {

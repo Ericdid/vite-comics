@@ -1,9 +1,11 @@
 <script>
+import comics from "./comics.vue";
 export default {
   data() {
-    return {
-      title: "Hello world",
-    };
+    return {};
+  },
+  components: {
+    comics,
   },
 };
 </script>
@@ -13,7 +15,7 @@ export default {
   <img src="../assets/img/jumbotron.jpg" alt="" class="w-100 jumbo" />
   <!-- container card -->
   <div class="card-container">
-    <div class="row"></div>
+    <comics />
   </div>
   <!-- shop -->
   <div class="shop d-flex justify-content-around align-items-center">
